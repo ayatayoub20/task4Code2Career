@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-// test.ts
 const UserRepository_1 = require("./repositories/UserRepository");
 const CourseRepository_1 = require("./repositories/CourseRepository");
 const BookingRepository_1 = require("./repositories/BookingRepository");
