@@ -3,6 +3,9 @@ import { Booking } from "../models/models";
 import { BaseRepository } from "./BaseRepository";
 
 export class BookingRepository extends BaseRepository<Booking> {
+  findOne(arg0: string): any {
+      throw new Error('Method not implemented.');
+  }
   constructor() {
     super();
     this.items = [

@@ -4,6 +4,9 @@ import { BaseRepository } from './BaseRepository';
 
 
 export class CourseRepository extends BaseRepository<Course> {
+    findOne(arg0: string): any {
+        throw new Error('Method not implemented.');
+    }
     constructor() {
         super();
         this.items = [
